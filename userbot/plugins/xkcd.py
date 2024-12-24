@@ -1,5 +1,6 @@
 """XKCD Search
 Syntax: .xkcd <search>"""
+
 from urllib.parse import quote
 
 import requests

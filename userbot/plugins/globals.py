@@ -320,9 +320,7 @@ async def _(event):
                         view_messages=False,
                     )
                     gban_watcher = f"⚠️⚠️**Warning**⚠️⚠️\n\n`Gbanned User Joined the chat!!`\n**⚜️ Victim Id :**  [{user.first_name}](tg://user?id={user.id})\n"
-                    gban_watcher += (
-                        f"**🔥 Action 🔥**  \n`Banned this piece of shit....` **AGAIN!**"
-                    )
+                    gban_watcher += f"**🔥 Action 🔥**  \n`Banned this piece of shit....` **AGAIN!**"
                     await event.reply(gban_watcher)
                 except BaseException:
                     pass

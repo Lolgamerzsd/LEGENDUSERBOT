@@ -1,5 +1,6 @@
 """WikiMedia.ORG
 Syntax: .wikimedia Query"""
+
 import requests
 
 from userbot.cmdhelp import CmdHelp

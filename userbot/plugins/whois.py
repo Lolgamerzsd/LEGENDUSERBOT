@@ -1,7 +1,6 @@
 """Get Telegram User Information
 Syntax: .whois @username/userid"""
 
-
 import os
 
 from telethon.tl.functions.photos import GetUserPhotosRequest

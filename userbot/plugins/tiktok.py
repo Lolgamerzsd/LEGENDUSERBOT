@@ -2,6 +2,7 @@
 
 
 Dont edit credits """
+
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from LEGENDBOT.utils import admin_cmd

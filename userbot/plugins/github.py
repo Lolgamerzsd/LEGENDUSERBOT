@@ -1,5 +1,6 @@
 """Get information about an user on GitHub
 Syntax: .github USERNAME"""
+
 import requests
 
 from userbot import *

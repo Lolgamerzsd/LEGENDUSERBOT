@@ -4,7 +4,6 @@ Instructions:- Set GITHUB_ACCESS_TOKEN and GIT_REPO_NAME Variables in Heroku var
 usage:- .commit reply_to_any_plugin //can be any type of file too. but for plugin must be in .py 
 """
 
-
 import os
 import time
 from datetime import datetime

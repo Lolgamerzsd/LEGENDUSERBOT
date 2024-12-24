@@ -1,6 +1,7 @@
 """Enable Seen Counter in any message, Fix by @pureindialover
 to know how many users have seen your message
 Syntax: .fwd as reply to any message"""
+
 from userbot.cmdhelp import CmdHelp
 from userbot.utils import admin_cmd
 

@@ -4,7 +4,6 @@ cmd:- .pat username or reply to msg
 By:- git: jaskaranSM tg: @Zero_cool7870
 """
 
-
 from os import remove
 from random import choice
 from urllib import parse

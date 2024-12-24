@@ -21,6 +21,8 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from userbot import bot
 
 OWNER_ID = bot.uid
+
+
 # Check if user has admin rights
 async def is_administrator(user_id: int, message):
     admin = False

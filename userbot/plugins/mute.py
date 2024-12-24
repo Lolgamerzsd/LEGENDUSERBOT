@@ -164,7 +164,8 @@ async def endmute(event):
             await edit_or_reply(event, "Error occured!\nError is " + str(e))
         else:
             await edit_or_reply(
-                event, "Haa Abb Boll Bhai unmute successfully \n乁( ◔ ౪◔)「    ┑(￣Д ￣)┍"
+                event,
+                "Haa Abb Boll Bhai unmute successfully \n乁( ◔ ౪◔)「    ┑(￣Д ￣)┍",
             )
 
 

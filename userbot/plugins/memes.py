@@ -573,7 +573,9 @@ async def copypasta(cp_e):
         elif textx:
             message = textx.text
         else:
-            await edit_or_reply(cp_e, "`😂🅱️IvE👐sOME👅text👅for✌️Me👌tO👐MAkE👀iT💞funNy!💦`")
+            await edit_or_reply(
+                cp_e, "`😂🅱️IvE👐sOME👅text👅for✌️Me👌tO👐MAkE👀iT💞funNy!💦`"
+            )
             return
 
         reply_text = random.choice(EMOJIS)

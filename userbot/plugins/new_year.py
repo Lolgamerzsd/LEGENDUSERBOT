@@ -21,6 +21,8 @@ from userbot.cmdhelp import CmdHelp
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND User"
 # credits to legend, john snow
 legend = bot.uid
+
+
 # credits to legend, john snow
 # credits to legend, john snow
 @bot.on(admin_cmd(pattern="hny$", outgoing=True))

@@ -1,4 +1,5 @@
 """.admin Plugin for @The_LegendBoy"""
+
 from telethon.tl.types import ChannelParticipantsAdmins
 
 from userbot.cmdhelp import CmdHelp

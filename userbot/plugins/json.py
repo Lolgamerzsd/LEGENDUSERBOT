@@ -1,5 +1,6 @@
 """Get Detailed info about any message
 Syntax: .json"""
+
 import io
 
 from LEGENDBOT.utils import admin_cmd, edit_or_reply

@@ -1,6 +1,7 @@
 """Check your internet speed powered by speedtest.net
 Syntax: .speedtest
 Available Options: image, file, text"""
+
 from datetime import datetime
 
 import speedtest

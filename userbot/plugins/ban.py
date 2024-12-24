@@ -76,7 +76,7 @@ async def _(event):
         return False
     try:
         await bot(EditBannedRequest(event.chat_id, to_ban_id, rights))
-    except (Exception) as exc:
+    except Exception as exc:
         await event.edit(str(exc))
     else:
         await event.edit(f"{input_cmd}ned Successfully!")
@@ -107,7 +107,7 @@ async def _(event):
         return False
     try:
         await bot(EditBannedRequest(event.chat_id, to_ban_id, rights))
-    except (Exception) as exc:
+    except Exception as exc:
         await event.edit(str(exc))
     else:
         await event.edit(f"{input_cmd}ned Successfully!")

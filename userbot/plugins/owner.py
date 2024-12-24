@@ -1,7 +1,6 @@
 """Available Commands:
 .mf"""
 
-
 from telethon import functions
 
 from LEGENDBOT.utils import admin_cmd, edit_or_reply, sudo_cmd

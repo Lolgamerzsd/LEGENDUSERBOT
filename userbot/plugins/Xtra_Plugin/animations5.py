@@ -97,7 +97,14 @@ async def _(event):
         return
     animation_interval = 2
     animation_ttl = range(0, 6)
-    animation_chars = ["😁🏿", "😁🏾", "😁🏽", "😁🏼", "‎😁", "**Good to See you Guys....**"]
+    animation_chars = [
+        "😁🏿",
+        "😁🏾",
+        "😁🏽",
+        "😁🏼",
+        "‎😁",
+        "**Good to See you Guys....**",
+    ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 6])

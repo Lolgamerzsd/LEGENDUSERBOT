@@ -276,6 +276,8 @@ INSULT_STRINGS = [
     "`You’re so ugly that when you cry, the tears roll down the back of your head…just to avoid your face.`",
     "`If you’re talking behind my back then you’re in a perfect position to kiss my a**!.`",
 ]
+
+
 # ===========================================
 @bot.on(admin_cmd(pattern=f"randi$", outgoing=True))
 @bot.on(sudo_cmd(pattern=f"randi$", allow_sudo=True))

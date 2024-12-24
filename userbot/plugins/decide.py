@@ -1,5 +1,6 @@
 """Quickly make a decision
 Syntax: .decide"""
+
 import requests
 
 from userbot.cmdhelp import CmdHelp

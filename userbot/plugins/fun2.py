@@ -1,4 +1,5 @@
 """COMMAND : .join , .pay , .work , .push , .aag , .climb, .ohh, .suckit, .lovestory, .bf"""
+
 import asyncio
 import random
 

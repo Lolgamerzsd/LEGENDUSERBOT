@@ -152,7 +152,8 @@ async def upstream(event):
     force_update = False
     if HEROKU_API_KEY is None or HEROKU_APP_NAME is None:
         return await edit_or_reply(
-            event, "Set  `HEROKU_APP_NAME`  and  `HEROKU_API_KEY`  to update your bot 🥴"
+            event,
+            "Set  `HEROKU_APP_NAME`  and  `HEROKU_API_KEY`  to update your bot 🥴",
         )
     try:
         txt = "😕 `Updater cannot continue due to some problems occured`\n\n**LOGTRACE:**\n"

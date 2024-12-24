@@ -299,7 +299,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 text=f"**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 𝙻𝚎𝚐𝚎𝚗𝚍𝙱𝚘𝚝 ⚜**",
                 buttons=[
                     [Button.url("♥️ Tutorial ♥", "https://youtu.be/9dQgdUJfk_k")],
-                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/LEGEND-OS/LEGENDBOT")],
+                    [
+                        Button.url(
+                            "📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/LEGEND-OS/LEGENDBOT"
+                        )
+                    ],
                     [
                         Button.url(
                             "💞 Deploy 💞",
@@ -603,9 +607,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         result = f"**📗 𝙵𝚒𝚕𝚎 :**  `{cmd}`\n"
         if CMD_HELP_BOT[cmd]["info"]["info"] == "":
             if not CMD_HELP_BOT[cmd]["info"]["warning"] == "":
-                result += (
-                    f"**⚠️ 𝚆𝚊𝚛𝚗𝚒𝚗𝚐 :**  {CMD_HELP_BOT[cmd]['info']['warning']}\n\n"
-                )
+                result += f"**⚠️ 𝚆𝚊𝚛𝚗𝚒𝚗𝚐 :**  {CMD_HELP_BOT[cmd]['info']['warning']}\n\n"
             result += f"**📍 Type :**  {CMD_HELP_BOT[cmd]['info']['type']}\n\n"
         else:
             if not CMD_HELP_BOT[cmd]["info"]["warning"] == "":
@@ -624,7 +626,9 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             result += f"**💬 𝙴𝚡𝚙𝚕𝚊𝚗𝚊𝚝𝚒𝚘𝚗 :**  `{command['usage']}`\n\n"
         else:
             result += f"**💬 𝙴𝚡𝚙𝚕𝚊𝚗𝚊𝚝𝚒𝚘𝚗 :**  `{command['usage']}`\n"
-            result += f"**⌨️ 𝙵𝚘𝚛 𝙴𝚡𝚊𝚖𝚙𝚕𝚎 :**  `{COMMAND_HAND_LER[:1]}{command['example']}`\n\n"
+            result += (
+                f"**⌨️ 𝙵𝚘𝚛 𝙴𝚡𝚊𝚖𝚙𝚕𝚎 :**  `{COMMAND_HAND_LER[:1]}{command['example']}`\n\n"
+            )
 
         if event.query.user_id == bot.uid or event.query.user_id in Config.SUDO_USERS:
             await event.edit(
